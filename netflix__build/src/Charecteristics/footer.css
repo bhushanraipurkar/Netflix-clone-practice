@@ -1,0 +1,5 @@
+.background__play{
+    position: relative;
+    object-fit: contain;
+    height: 400px;
+}

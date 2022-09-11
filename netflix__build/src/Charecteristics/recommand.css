@@ -1,0 +1,19 @@
+*{
+    color: white;
+}
+
+.rec__body{
+    padding: 5%;
+    background-color: #26262646;
+    color: white;
+}
+
+.rec__posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+.rec__images{
+    height: 250px;
+    margin-right: 30px;
+}

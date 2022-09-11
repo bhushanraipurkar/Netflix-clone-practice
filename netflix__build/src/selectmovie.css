@@ -1,0 +1,37 @@
+.banner{
+    height: 440px;
+    position: relative;
+    color: white;
+    object-fit: contain;
+}
+.sm__description{
+    padding: 3%;
+    font-size: larger;
+    width:fit-content;
+    color: rgba(233, 229, 229, 0.822);
+}
+.sm__head__description{
+    font-size: large;
+    color: white;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+.sm__rating{
+    position: relative;
+    float: right;
+    margin-top: 6%;
+    margin-right: 2%;
+}
+.sm__rating > h1 {
+    display: inline;
+    font-size: 40px;
+    color: #ffd700;
+}
+.sm__rating > p {
+    display: inline;
+    font-size: 30px;
+}
+.sm__rating > .sm-rating-bottom{
+    margin-left: 20%;
+    color: rgba(185, 183, 183, 0.685);
+}

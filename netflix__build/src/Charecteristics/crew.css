@@ -1,0 +1,154 @@
+.crew__crew{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.crew__crew::-webkit-scrollbar{
+    display: none;
+}
+.crew__heading__identifier{
+    border-left: 10px solid red;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.crew__images{
+    height: 350px;
+    width: 270px;
+    margin-right: 30px;
+    
+}
+.cast__image{
+    display: flex;
+    height: 200px;
+    
+}
+
+.crew__images:hover{
+    -webkit-filter: brightness(0.1);
+    filter: brightness(0.1);
+}
+
+
+ .crew__image__text{
+    position: absolute;
+    height: 50px;
+    top: 10px;
+    left: 30px;
+    color: white;
+} 
+
+.card{
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+}
+.card__inner{
+    position: absolute;
+    height: 50px;
+    top: 10px;
+    left: 5px;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.4s ease 0s;
+}
+
+.card:hover .card__inner {
+    opacity: 1;
+    color: white;
+    animation-name:movingEff ;
+    animation-duration: 0.8s;
+    
+}
+
+.card__inner h2 {
+    margin-top: 1rem;
+    font-size: 30px;
+    border-left: 5px solid #808080;
+    padding-left: 10px;
+}
+
+@keyframes movingEff{
+   0%{
+    margin-left: -50%;
+   }
+   100%{
+    margin-left: 0%;
+   }
+}
+
+.card__inner p {
+    font-size: 20px;
+    height: 87%;
+    padding-right: 1rem;
+    font-weight: 200;
+    line-height: 2.5rem;
+    margin-top: 1.5rem;
+    border-left: 5px solid #808080;
+    padding-left: 15px;
+}
+
+
+.crew__urgent{
+
+    position: relative;
+}
+
+.crew__image__text:hover{
+    opacity: 1;
+}
+
+.crew__heading{
+    color: whitesmoke;
+    padding: 2%;
+}
+.crew__name{
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+
+.cast__heading{
+    color: whitesmoke;
+    padding: 2%;
+}
+
+.cast__heading__identifier{
+    border-left: 10px solid red;
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.cast__cast{
+display: flex;
+overflow-y:hidden ;
+overflow-x: scroll;
+margin-left: 5%;
+    margin-right: 5%;
+}
+
+.cast__cast::-webkit-scrollbar{
+    display: none;
+}
+
+.cast__images{
+    height: 250px;
+    margin-right: 30px;
+}
+
+.cast__name{
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+
+.cast__job{
+    color: white;
+    padding-left: 5%;
+    color: #ffd700;
+    margin-left: 15%;
+}

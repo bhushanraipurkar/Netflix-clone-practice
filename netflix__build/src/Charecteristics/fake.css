@@ -1,0 +1,37 @@
+.main__fake__div{
+    margin: 10%;
+}
+
+.running__png{
+    height: 150px;
+    animation-name: running;
+    animation-duration: 7s;
+    animation-iteration-count:infinite ;
+    animation-delay: none;
+    
+}
+
+.running__png::-webkit-scrollbar{
+    display: none;
+}
+
+@keyframes running{
+    0%{
+     margin-left: 20%;
+    }
+    100%{
+     margin-left: 80%;
+    }
+}
+
+.h1__font{
+    color: azure;
+    font-size: 150px;
+    text-align: center;
+}
+.h3__font{
+    color: brown;
+    font-size: 50px;
+    text-align: center;
+}
+

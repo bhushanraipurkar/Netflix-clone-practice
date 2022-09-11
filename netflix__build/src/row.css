@@ -1,0 +1,80 @@
+.row{
+    color: white;
+    margin: 20px;
+}
+
+.row__posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+
+/* Removing Scrollbar indication at bottom */
+.row__posters::-webkit-scrollbar{
+    display: none;
+}
+.row__poster{
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+    transition:transform 450ms;
+}
+.row__poster:hover{
+   transform: scale(1.08);
+   opacity: 1; 
+}
+.row__posterLarge{
+    max-height: 250px;
+}
+
+.row__rec__extra{
+    border-left: 10px solid red;
+    padding: 10px;
+    padding-left: 20px;
+    margin-bottom: 3%;
+}
+
+.row__posterLarge:hover{
+    transform: scale(1.09);
+    opacity: 1;
+}
+
+.upc__banner{
+   height: 250px;
+    width: 400px;
+    position: relative;
+    color: white;
+    object-fit: contain;
+    -webkit-filter: brightness(0.6);
+    filter: brightness(0.6);
+    margin-right: 30px;
+}
+
+.upc__banner:hover{
+    transform: scale(1.09);
+    opacity: 1;
+}
+.upc__banner__contents{
+    margin-left: 30px;
+    padding-top: 60px;
+    height: 190px;
+}
+.upc__banner__p{
+    margin: 5%;
+    
+}
+.ipc__fix{
+    float: right;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+.upc__banner__h1{
+    display: inline;
+    font-size: 30px;
+    color: #ffd700;
+}
+.upc__banner__pp{
+    display: inline;
+    font-size: 20px;
+}
